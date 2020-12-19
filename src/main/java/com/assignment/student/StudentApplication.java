@@ -15,5 +15,6 @@ public class StudentApplication{ //implements CommandLineRunner {
 
 	public static void main(String[] args) {
 		SpringApplication.run(StudentApplication.class, args);
+		System.out.println("MongoDB Assignment");
 	}
 }
