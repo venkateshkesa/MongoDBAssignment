@@ -29,7 +29,7 @@ public class StudentController {
 	@PostMapping("/api/saveStudent")
 	public String saveStudent(@RequestBody StudentBO student)
 	{
-			logger.info("Entered into save Student Controller");
+			logger.info("Entered into save Student Controller of Mongo DB");
 			String response = studentService.saveStudent(student);
 			return response;
 	}
